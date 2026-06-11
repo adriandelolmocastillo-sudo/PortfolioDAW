@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+section.logo {
+text-align: center;
+}
+
+section.menu {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    font-size: 1.2em;
+    color: #666666;
+    border-bottom: 4px solid black; 
+    padding-bottom: 10px; 
+    margin-bottom: 10px; 
+}
+
+body {
+ background-color: #FBFBFB;
+}
+header,main,footer {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+ 
+}
+section.banners {
+  display: inline-block;
+  margin: 10px;
+}
+section.textbanner {
+  display: inline-block;
+  margin: 10px;
+}
+.footer {
+    font-family: Arial, sans-serif;
+    color: #555;
+    border-top: 1px solid #ccc;
+    background: #f5f5f5;
+}
+
+section.textbanner {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    font-size: 1.2em;
+    color: #666666;
+}
+
+.textbanner p {
+  border: 2px solid #555;
+  padding: 12px 0;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.textbanner p:hover {
+  background-color: #555;
+  color: white;
+}
+
+.bloques-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bloque1,
+.bloque2,
+.bloque3 {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.bloque1,
+.bloque2 {
+  border-right: 5px solid #000000;
+}
+
+.bloques-footer p {
+  margin: 5px 0;
+}
+
+/* ----- BLOQUE INFERIOR ----- */
+.footer-bottom {
+    border-top: 1px solid #000000;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #555;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer-column::after {
+        display: none;
+    }
