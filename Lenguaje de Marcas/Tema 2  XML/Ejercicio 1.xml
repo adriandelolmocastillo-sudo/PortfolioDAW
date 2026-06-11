@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coche>
+    <conductor>
+        <nombre>Ramón Fernández</nombre>
+        <email>correo@correo.com</email>
+    </conductor>
+    <caracteristica>
+        <motor>65 CV</motor>
+        <modelo>Deportivo</modelo>
+        <color>Blanco</color>
+    </caracteristica>
+</coche>
