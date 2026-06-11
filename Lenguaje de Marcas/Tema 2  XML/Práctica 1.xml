@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facturas>
+    <factura numero="999">
+        <empresa>
+            <nombre>Equipos Digitales S.L.</nombre>
+            <direccion>Av. Valladolid</direccion>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28015</codigoPostal>
+            <cif>Q-9876543</cif>
+            <telefono>91.777.66.88</telefono>
+            <fax>91.777.66.99</fax>
+        </empresa>
+        
+        <datosFactura>
+            <fecha>2005-01-12</fecha>
+            <numeroPedido>731</numeroPedido>
+            <formaPago>EFECTIVO</formaPago>
+        </datosFactura>
+
+        <cliente numero="879">
+            <nombre>Darío Bueno Gutiérrez</nombre>
+            <direccionEnvio>Av. Oporto nº7 4ºd</direccionEnvio>
+            <poblacion>Madrid</poblacion>
+            <codigoPostal>28043</codigoPostal>
+            <provincia>Madrid</provincia>
+        </cliente>
+
+        <productos>
+            <producto>
+                <referencia>MII93000F/8</referencia>
+                <descripcion>MICRO PENTIUM IV 3000MHZ FB800</descripcion>
+                <cantidad>1</cantidad>
+                <precio>230.00</precio>
+                <iva>16.0</iva>
+                <importe>266.80</importe>
+            </producto>
+            <producto>
+                <referencia>MB8QDIP4</referencia>
+                <descripcion>PLACA BASE QDI P4</descripcion>
+                <cantidad>1</cantidad>
+                <precio>180.00</precio>
+                <iva>16.0</iva>
+                <importe>208.80</importe>
+            </producto>
+            <producto>
+                <referencia>MEDD512M32</referencia>
+                <descripcion>DIMM DDR 512MB 3200</descripcion>
+                <cantidad>2</cantidad>
+                <precio>40.00</precio>
+                <iva>16.0</iva>
+                <importe>92.80</importe>
+            </producto>
+            <producto>
+                <referencia>HD250GSA7</referencia>
+                <descripcion>DISCO DURO 250GB S-ATA 7200</descripcion>
+                <cantidad>4</cantidad>
+                <precio>120.00</precio>
+                <iva>16.0</iva>
+                <importe>556.80</importe>
+            </producto>
+        </productos>
+
+        <totales>
+            <baseImponible>970.00</baseImponible>
+            <porcentajeIVA>16.0</porcentajeIVA>
+            <cuotaIVA>155.20</cuotaIVA>
+            <totalFactura>1125.20</totalFactura>
+        </totales>
+    </factura>
+    
+    <factura numero="1000">
+        <empresa>
+            <nombre>Equipos Digitales S.L.</nombre>
+            <direccion>Av. Valladolid</direccion>
+            <ciudad>Madrid</ciudad>
+            <codigoPostal>28015</codigoPostal>
+            <cif>Q-9876543</cif>
+            <telefono>91.777.66.88</telefono>
+            <fax>91.777.66.99</fax>
+        </empresa>
+
+        <datosFactura>
+            <fecha>2005-02-05</fecha>
+            <numeroPedido>732</numeroPedido>
+            <formaPago>TARJETA</formaPago>
+        </datosFactura>
+
+        <cliente numero="880">
+            <nombre>Ana Pérez López</nombre>
+            <direccionEnvio>Calle Mayor nº25 2ºA</direccionEnvio>
+            <poblacion>Toledo</poblacion>
+            <codigoPostal>45001</codigoPostal>
+            <provincia>Toledo</provincia>
+        </cliente>
+
+        <productos>
+            <producto>
+                <referencia>LG24MN58D</referencia>
+                <descripcion>MONITOR LG 24'' FULL HD</descripcion>
+                <cantidad>1</cantidad>
+                <precio>150.00</precio>
+                <iva>16.0</iva>
+                <importe>174.00</importe>
+            </producto>
+            <producto>
+                <referencia>MSK120GB</referencia>
+                <descripcion>SSD KINGSTON 120GB</descripcion>
+                <cantidad>2</cantidad>
+                <precio>40.00</precio>
+                <iva>16.0</iva>
+                <importe>92.80</importe>
+            </producto>
+            <producto>
+                <referencia>LOGW110</referencia>
+                <descripcion>RATÓN LOGITECH ÓPTICO</descripcion>
+                <cantidad>3</cantidad>
+                <precio>12.00</precio>
+                <iva>16.0</iva>
+                <importe>41.76</importe>
+            </producto>
+        </productos>
+
+        <totales>
+            <baseImponible>266.00</baseImponible>
+            <porcentajeIVA>16.0</porcentajeIVA>
+            <cuotaIVA>42.56</cuotaIVA>
+            <totalFactura>308.56</totalFactura>
+        </totales>
+    </factura>
+</facturas>
